@@ -29,6 +29,17 @@
   theme = {}
 }
 
+@mastersthesis{s-iecbs-25,
+  author = {Max Karl Stolze},
+  title = {{Implementation and Evaluation of Clause Blind Schnorr Signatures on Constrained Systems}},
+  school = {Faculty of Computer Science, TU Dresden},
+  type = {Master's Thesis},
+  month = "December",
+  year = {2025},
+  abstract = {In this work the Clause Blind Schnorr (CBS) signature scheme is implemented in the context of constrained systems and the GNU Taler (Taler) payment system. The goal is to evaluate whether the signature scheme offers benefits over the existing RSA signature scheme that is already implemented for a Taler wallet application for embedded systems. The implementation contains a hardware-accelerated and a software-based version of the scheme.  To implement the hardware-accelerated version, the used driver had to be enhanced with support for the twisted Edwards curve version of Curve25519. Different versions of scalar multiplication have been implemented and a window based approach with precalculations and combined multiplications is found to perform best. The evaluation of the blinding scheme implementation compares the performance of blind signature primitives and finds that the CBS scheme does not perform blinding and verification faster than the RSA scheme.  Unblinding is executed faster with the CBS scheme. This is the case for both the hardwareaccelerated and the software-based implementation. Enhancing the performance is likely possible with by further improvements regarding the hardware-accelerated approach or a different library choice for the software-based solution. The evaluation further shows that the CBS scheme needs less storage space and bandwidth for signature storage and creation.},
+  theme = {}
+}
+
 @mastersthesis{s-uumcs-25,
   author = {Carl Seifert},
   title = {{unicoap: A Unified and Modular CoAP Suite in RIOT}},
